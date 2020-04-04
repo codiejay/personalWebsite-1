@@ -37,7 +37,7 @@ body {
     transition: 100ms;
     text-align: left;
     position: relative;
-    padding-left: 18%;
+    padding-left: 22%;
     overflow: hidden;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .nav a:not(.active):hover { 
-  width: 60%;
+  width: 80%;
   color: white;
 }
 .menuId { 
