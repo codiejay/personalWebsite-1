@@ -54,7 +54,7 @@ body {
 .menuId { 
   width: 60px;
   height: 60px;
-  background: url('./img/aboutIcon.svg');
+  background: url('./img/about.svg');
   transform: scale(0.8);
   display: block;
   position: absolute;
