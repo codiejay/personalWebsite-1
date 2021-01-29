@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 1100%;
+    font-size: 14px;
+    background: url('./assest/harley-davidson-zGzXsJUBQfs-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.nav {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    margin-top: 10%;
+    left: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    height: 90px;
+    margin: 6px 0 auto;
+    display: block;
+    background: rgb(0, 0, 0);
+    color:  rgba(255, 255, 255, 0);
+    line-height: 90px;
+    text-align: center;
+    transition: 100ms;
+    text-align: left;
+    position: relative;
+    padding-left: 28%;
+    overflow: hidden;
+}
+
+.nav a:not(.active) { 
+  width: 9%;
+  transition: 500ms;
+}
+
+.nav a:not(.active):hover { 
+  width: 90%;
+  color: white;
+}
+
+.menuId { 
+  width: 60px;
+  height: 60px;
+  background: url('./assest/about.svg');
+  transform: scale(0.8);
+  display: block;
+  position: absolute;
+  top: 20%;
+  z-index: 200;
+  background-position: center;
+  background-size: contain;
+  left: 0;
+}
+
+#homeId { 
+    width: 60px;
+    height: 60px;
+    background: url('./assest/home.png');
+    transform: scale(0.8);
+    display: block;
+    position: absolute;
+    top: 20%;
+    z-index: 200;
+    background-position: center;
+    background-size: contain;
+    left: 0;
+  }
+
+  .galleryId { 
+    width: 60px;
+    height: 60px;
+    background: url('./assest/art-museum.png');
+    transform: scale(0.8);
+    display: block;
+    position: absolute;
+    top: 20%;
+    z-index: 200;
+    background-position: center;
+    background-size: contain;
+    left: 0;
+  }
+
+  #contactId { 
+    width: 60px;
+    height: 60px;
+    background: url('./assest/contact.png');
+    transform: scale(0.8);
+    display: block;
+    position: absolute;
+    top: 20%;
+    z-index: 200;
+    background-position: center;
+    background-size: contain;
+    left: 0;
+  }
+
+a.active{
+    background: rgb(255, 255, 255);
+    color: rgb(10, 10, 10);
+    font-size: 30px;
+}
+
+.a {
+    width: 95%;
+}
+
+.b {
+    width: 85%;
+}
+
+.c {
+    width: 75%;
+}
+
+.d {
+    width: 90%;
+}
+
+.showcase {
+    margin-left: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+    padding-top: 2%;
+ }
+
+ .showcase h1{
+    padding-left: 30%;
+    padding-bottom: 5%;
+    padding-top: 0.3%;
+ }
+
+.showcase p{
+    padding-left: 10%;
+}
+
+.showcase p:nth-child(3) a {
+    color: red;
+ }
+
+ .shocaseItem{
+    background: rgba(128, 128, 128, 0.418);
+ }
+
+ .showcaseImg{
+    width: 12vw;
+    height: 12vw;
+    border-radius: 5000px;
+    background: url(./assest/image.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 35%;
+ }
+
+    </style>
+
+<body>
+    <div class="background">
+        <div class="nav">
+            <a class="a" href="../index.html"><span id='homeId'></span>HOME</a>
+            <a class="b active" href="./index.html"><span class='menuId'></span>ABOUT ME</a>
+            <a class="c" href="../page3/index.html"><span class="galleryId"></span>GALLARY</a>
+            <a class="d" href="#"><span id='contactId'></span>CONTACT US</a>
+        </div>
+    </div>
+
+    <div class="showcase">
+        <div class="shocaseItem">
+            <div class="showcaseImg"></div>
+            <div class="details">
+                <h1>About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem at inventore laudantium ad labore, necessitatibus facilis tenetur nihil perspiciatis soluta consectetur illo, reprehenderit obcaecati nam quos expedita. Sequi, laboriosam unde!Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem at inventore laudantium ad labore, necessitatibus facilis tenetur nihil perspiciatis soluta consectetur illo, reprehenderit obcaecati nam quos expedita. Sequi, laboriosam unde!Lorem ipsum dolor sit amet consectetur adipisicing elit.!</p>
+                <p><a href="../page5/index.html">sign in to more about me</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
